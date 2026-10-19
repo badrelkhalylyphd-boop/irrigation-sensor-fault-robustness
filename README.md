@@ -22,11 +22,10 @@ We then retrain the same model on a training set that already contains some corr
 
 ## Run it in Google Colab or Jupyter
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<user>/irrigation-sensor-fault-robustness/blob/main/reproduce_colab.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/badrelkhalylyphd-boop/irrigation-sensor-fault-robustness/blob/main/reproduce_colab.ipynb)
 
-`reproduce_colab.ipynb` runs the whole experiment in one notebook. It installs the pinned library versions; on Colab the session restarts once, after which you choose *Run all* again. It then asks for `greenhouse_dataset.csv` (or picks it up from `data/` when run locally), and ends with a table that compares every number reported in the paper with the current run and marks each one ✅ or ❌.
+`reproduce_colab.ipynb` runs the whole experiment in one notebook. It installs the pinned library versions; on Colab the session restarts once, after which you choose *Run all* again. On Colab, first upload `greenhouse_dataset.csv` in the Files panel (it is read from `/content`; if it is missing the notebook asks for it). Locally, the copy in `data/` is used, and ends with a table that compares every number reported in the paper with the current run and marks each one ✅ or ❌.
 
-Replace `<user>` in the badge link with your GitHub account once the repository is public.
 
 ## Quick start (command line)
 

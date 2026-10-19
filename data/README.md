@@ -12,6 +12,8 @@ Quick integrity check of the file used in the paper:
 
 | Property | Value |
 |---|---|
+| SHA-256 | `e64a904a981d323f67210138cfc078e98d1911e6d2bb42195bf76aa818c51aff` |
+| Size | 4,829,005 bytes |
 | Rows (excluding header) | 95,669 |
 | Separator | `;` |
 | Columns | `Timestamp; Soil Percent; Soil Raw; Suhu Tanah; Suhu Udara; Humidity; Label` |
